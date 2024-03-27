@@ -1,1 +1,26 @@
+body {
 
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.header__links-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: circle;
+}
+.header__links-list-item {
+    text-decoration: underline;
+}
+.header__links-list-item_no-bullit{
+    list-style-type: none;
+}
+.header__logo {
+    width: 148;
+    height: 105;
+}
